@@ -1,5 +1,7 @@
+var path = require('path');
+
 module.exports = {
-  entry: "./index.tsx",
+  entry: path.join(__dirname, "index.tsx"),
   output: {
     filename: "bundle.js"
   },
