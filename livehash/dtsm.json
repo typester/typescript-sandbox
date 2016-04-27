@@ -1,0 +1,41 @@
+{
+  "repos": [
+    {
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "ref": "master"
+    }
+  ],
+  "path": "typings",
+  "bundle": "typings/bundle.d.ts",
+  "link": {
+    "npm": {
+      "include": true
+    }
+  },
+  "dependencies": {
+    "react/react.d.ts": {
+      "ref": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    },
+    "react/react-dom.d.ts": {
+      "ref": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    },
+    "react-router/react-router.d.ts": {
+      "ref": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    },
+    "redux/redux.d.ts": {
+      "ref": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    },
+    "react-redux/react-redux.d.ts": {
+      "ref": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    },
+    "react-router-redux/react-router-redux.d.ts": {
+      "ref": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    },
+    "redux-form/redux-form.d.ts": {
+      "ref": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    },
+    "react-bootstrap/react-bootstrap.d.ts": {
+      "ref": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    }
+  }
+}
